@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Frame x:Name="MainFrame"></Frame>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <DockPanel>
+            <Image Source="/Resources/beauty_logo.png" HorizontalAlignment="Left" Margin="59"></Image>
+            <TextBlock Text="Бархатные бровки" FontSize="20" FontFamily="Tahoma" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+        </DockPanel>
+        <Frame Grid.Row="1" x:Name="MainFrame"></Frame>
     </Grid>
 </Window>

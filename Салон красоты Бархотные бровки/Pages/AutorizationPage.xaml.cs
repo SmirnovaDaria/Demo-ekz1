@@ -24,5 +24,16 @@ namespace Салон_красоты_Бархотные_бровки.Pages
         {
             InitializeComponent();
         }
+
+        private void Navigate_Admin(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = (MainWindow)Window.GetWindow(this);
+            window.MainFrame.Content = new Pages.AdminPage();
+        }
+        private void Navigate_Client(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = (MainWindow)Window.GetWindow(this);
+            window.MainFrame.Content = new Pages.ClientPage();
+        }
     }
 }

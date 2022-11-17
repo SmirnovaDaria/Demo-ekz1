@@ -24,6 +24,7 @@ namespace Салон_красоты_Бархотные_бровки
         {
             InitializeComponent();
             MainFrame.Content = new Pages.AutorizationPage();
+            MainFrame.NavigationUIVisibility = NavigationUIVisibility.Hidden;
         }
     }
 }
