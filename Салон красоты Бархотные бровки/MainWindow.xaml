@@ -13,7 +13,7 @@
         </Grid.RowDefinitions>
         <DockPanel>
             <Image Source="/Resources/beauty_logo.png" HorizontalAlignment="Left" Margin="5"></Image>
-            <TextBlock Text="Бархатные бровки" FontSize="20" FontFamily="Tahoma" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+            <TextBlock Text="Бархатные бровки" FontSize="20" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
             <Button Content="Вернуться" Style="{StaticResource ButtonAccent}" HorizontalAlignment="Right" Margin="0,0,10,0"   Click="Exit"></Button>
         </DockPanel>
         <Frame Grid.Row="1" x:Name="MainFrame"></Frame>

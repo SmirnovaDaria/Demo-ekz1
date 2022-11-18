@@ -9,6 +9,15 @@
             <Setter Property="Button.Foreground" Value="#333333"/>
             <Setter Property="Button.Height" Value="30"/>
             <Setter Property="Button.Width" Value="100"/>
-        </Style> 
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="TextBlock.FontFamily" Value="Tahoma"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="TextBox.FontFamily" Value="Tahoma"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Button.FontFamily" Value="Tahoma"/>
+        </Style>
     </Application.Resources>
 </Application>
