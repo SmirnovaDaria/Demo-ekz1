@@ -9,6 +9,20 @@
       Title="ClientPage">
 
     <Grid Background="White">
-        
+        <StackPanel>
+            <TextBlock Text="Клиент" FontSize="16" Margin="10,10,0,0" HorizontalAlignment="Left"/>
+            <TabControl Margin="0,10,0,0">
+                <TabItem Header="Услуги">
+                    <TextBlock Height="900" VerticalAlignment="Top">
+                        RRERER
+                    </TextBlock>
+                </TabItem>
+                <TabItem Header="Придуамем...">
+                    <TextBlock Height="900">
+                        тут обязательно что-нибудь будет
+                    </TextBlock>
+                </TabItem>
+            </TabControl>
+        </StackPanel>
     </Grid>
 </Page>

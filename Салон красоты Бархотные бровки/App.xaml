@@ -6,7 +6,7 @@
     <Application.Resources>
         <Style x:Key="ButtonAccent">
             <Setter Property="Button.Background" Value="#FF4A6D"/>
-            <Setter Property="Button.Foreground" Value="#333333"/>
+            <Setter Property="Button.Foreground" Value="White"/>
             <Setter Property="Button.Height" Value="30"/>
             <Setter Property="Button.Width" Value="100"/>
         </Style>
