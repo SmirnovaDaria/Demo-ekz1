@@ -25,6 +25,12 @@ namespace Салон_красоты_Бархотные_бровки
             InitializeComponent();
             MainFrame.Content = new Pages.AutorizationPage();
             MainFrame.NavigationUIVisibility = NavigationUIVisibility.Hidden;
+
+        }
+
+        private void Exit(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Content = new Pages.AutorizationPage();
         }
     }
 }

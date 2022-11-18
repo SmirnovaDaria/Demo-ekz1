@@ -4,6 +4,11 @@
              xmlns:local="clr-namespace:Салон_красоты_Бархотные_бровки"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="ButtonAccent">
+            <Setter Property="Button.Background" Value="#FF4A6D"/>
+            <Setter Property="Button.Foreground" Value="#333333"/>
+            <Setter Property="Button.Height" Value="30"/>
+            <Setter Property="Button.Width" Value="100"/>
+        </Style> 
     </Application.Resources>
 </Application>
